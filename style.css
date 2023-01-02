@@ -1,0 +1,457 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto";
+}
+.container{
+    width: 100%;
+
+}
+.navbar{
+    
+    display: flex;
+    justify-content: space-between;
+    padding-top: 43px;
+    padding-left: 110px;
+    padding-right: 110px;
+    margin: auto;
+}
+
+.left{
+    gap: 20px;
+    display: flex;
+}
+.left ul{
+    padding-top: 7px;
+    list-style: none;
+    gap: 20px;
+    display: flex;
+}
+.left img{
+
+    height: 4vh;
+}
+.right button{
+    
+    font-weight: 400;
+    font-size: 15px;
+    background-color: #FF9C08;
+    color: black;
+    border: none;
+    width: 142px;
+    height: 54px;
+    border-radius: 10px;
+    
+}
+.right{
+    display: flex;
+    
+    gap: 25px;
+    margin-top: -20px;
+}
+.right img{
+    width: 41px;
+    height: 44px;
+}
+.content1{
+    margin-left: -20px;
+    justify-content: end;
+    padding-top: 40px;
+    display: flex;
+    
+    
+}
+.left1{
+    width: 613px;
+    margin-top: 170px;
+    line-height: 50px;
+}
+.left1 h1{
+    line-height: 80px;
+    font-weight: 700;
+    font-size: 60px;
+}
+.donate{
+ margin-right: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    background-color: #FF9C08;
+    color: black;
+    border: none;
+    width: 180px;
+    height: 71px;
+    border-radius: 10px;
+
+}
+.left1 p{
+    color: grey;
+    font-size: 25px;
+    font-weight: 300;
+}
+.about{
+    font-weight: 700;
+    font-size: 18px;
+    
+    color: black;
+    border: none;
+    width: 180px;
+    height: 71px;
+    border-radius: 10px;   
+}
+.alone{
+    
+    margin-top: 20px;
+}
+.number{
+    
+    padding-top: 80px;
+    height: 20vh;
+    line-height: 30px;
+    justify-content: space-around;
+    display: flex;
+    padding-left: 40px;
+    padding-left: 40px;
+}
+.oreng{
+    color: #FF9C08;
+
+}
+.number p{
+    padding-top: 20px;
+    color: grey ;
+    font-size: 20px;    
+}
+.million{
+   
+    font-size: 30px;
+}
+.line{
+    color: grey;
+    width: 70%;
+}
+.left2{
+    flex-direction: column;
+    line-height: 30px;
+}
+.content2{
+    margin-top: 80px;
+    width: 100%;
+    height: 210vh;
+    
+   
+}
+.right2{
+    
+}
+.left2 h3{
+    color: #FF9C08;
+    font-weight: 300;
+}
+.all2{
+    gap: 30px;
+    padding-left: 150px;
+    width: 80%;
+    justify-content: center;
+    display: flex;
+}
+.left2 h1{
+    margin-top: 30px;
+    line-height: 50px;
+    font-size: 40px;
+}
+.left2 p{
+    margin-top: 20px;
+    color: grey;
+    font-size: 17px;
+    width: 576px;
+    font-size: 300;
+    margin-bottom: 40px;
+}
+.button2{
+    margin-left: 200px;
+    margin-bottom: 30px;
+}
+.right2 img{
+    margin-bottom: 30px;
+   
+   
+}
+.right2 p{
+    line-height: 30px;
+    color: gray;
+}
+.link p , img{ 
+    flex-direction: column;
+    color: black;
+    line-height: 0px;
+}
+.heart{
+    display: flex;
+}
+.one3{
+display: flex;
+}
+.content3{
+    display: flex;
+    justify-content: center;
+}
+.content3 h3{
+    color: #FF9C08;
+    font-weight: 300;
+}
+.content3 h1{
+    text-align: left;
+    font-size: 50px;
+   
+}
+.left3{
+    margin-right: 120px;
+    margin-top: 150px;
+
+}
+.change{
+    margin-right: 30px ;
+}
+.impact{
+    padding-bottom: 30px;
+
+}
+.heart{
+    gap: 30px;
+    padding-right: 40px;
+}
+.pull h2{
+    font-size: 35px;
+}
+.pull p{
+    color: grey;
+    font-weight: 300;
+
+}
+.pull{
+    text-align: right;
+}
+.content4{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    background-color: #FFD4A4;
+    padding-top: 200px;
+    height: 90vh;
+    position: relative;
+    z-index: 2;
+}
+.image1{
+    position: relative;
+    
+    z-index: 1;
+    
+    
+}
+.dn{
+    margin-right: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    background-color: black;
+    color:white;
+    border: none;
+    width: 180px;
+    height: 71px;
+    border-radius: 10px;
+}
+.ab{
+    margin-right: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    background-color: white;
+    color: black;
+    border: none;
+    width: 220px;
+    height: 71px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+
+}
+.world{
+    margin-bottom: 30px;
+}
+.text{
+    margin-left: 100px;
+    width: 80%;
+    margin-top: 50px;
+    text-align: left;
+    display: flex;
+}
+.text1  h2{
+
+}
+.text1 p{
+    line-height: 40px;
+    color: gray;
+
+}
+
+.cl{
+margin-right: -50px;
+}
+.content5{
+    margin-top: 700px;
+    height: 80vh;
+    
+    
+}
+.how{
+   display: flex;
+   justify-content: space-around;
+}
+.line2{
+    margin: 100px 0;
+}
+.first{
+    flex-direction: column;
+    text-align: center;
+    width: 315px;
+}
+.cake{
+    justify-content: center;
+    display: flex;
+    gap: 100px;
+}
+.cake p{
+    color: gray;
+    line-height: 35px;
+}
+.content6{
+    margin-left: 80px;
+    margin-top: 200px;
+    background-image: url(./image/Rectangle\ \(1\)\ —\ копия.png);
+    background-repeat: no-repeat;
+    justify-content: space-around;
+    display: flex;
+    height: 70vh;
+    padding-top: 170px;
+    padding-right: 50px;
+}
+.price h1{
+    font-size: 40px;
+}
+.content7{
+    justify-content: space-around;
+    display: flex;
+}
+.content7 h3{
+    color: #FF9C08;
+
+}
+.content7 h1{
+    font-size: 50px;
+}
+.right5{
+    margin-top: 120px;
+    margin-left: -200px;
+}
+.left5{
+    margin-left: -40px;
+}
+.right5 h1{
+    margin-bottom: 20px;
+}
+.virate{
+    color: gray;
+    line-height: 30px;
+
+}
+.camp{
+    margin-top: 10px;
+}
+.content8{
+   
+    text-align: center;
+}
+.photo{
+    justify-content: center;
+    gap: 30px;
+    display: flex;
+    margin-bottom: 60px;
+}
+.content8 h3{
+    color: #FF9C08;
+    margin-bottom: 20px;
+}
+.content8 h1{
+    margin-bottom: 60px;
+    font-size: 40px;
+}
+.in{
+    display: flex;
+}
+.in p{
+    color: grey;
+}
+.empty{
+    position: relative;
+    z-index: 1;
+    top:-40px;
+    text-align: left;
+    background-color: white;
+    width: 90%;
+    border-radius: 20px;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+.content9{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+   margin-left: 120px;
+}
+.one1 ul{
+    color: gray;
+    list-style: none;
+
+}
+.one1{
+    width: 20%;
+    line-height: 30px;
+}
+.one1 p{
+    color: gray;
+}
+.only{
+    margin-right: 20px;
+    width: 25%;
+}
+.four4{
+    padding-top: 40px;
+   
+    background-image: url(./image/Rectangle\ \(1\)\ —\ копия\ 2.png);
+    background-repeat: no-repeat;
+
+}
+.nd{
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+.ba{
+    margin-left: 40px;
+    width: 300px;
+}
+.four4 h3{
+    text-align: center;
+    padding-right: 190px;
+}
+.last{
+    color: gray;
+     display: flex;
+}
+.black{
+    color: black;
+   
+}
+.and{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
